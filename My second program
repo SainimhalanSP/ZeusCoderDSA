@@ -1,0 +1,14 @@
+import java.util.Scanner; 
+public class Main { 
+      public static void main (String[] args) { 
+      Scanner sc= new Scanner(System.in); 
+      System.out.println("Enter three angles");  
+      int a=sc.nextInt(); 
+      int b=sc.nextInt(); 
+      int c=sc.nextInt(); 
+      if (a>0 && b>0 && c>0 && (a+b+c==180)) { 
+         System.out.println("Sum of all the numbers is 180. Therefore it is a triangle"); } 
+        else { System.out.println("The given numbers do not form a triangle");} 
+       
+        }
+      }
